@@ -4,7 +4,8 @@ import { useCount, useDispatchCount } from '../components/Counter'
 const IndexPage = () => {
   const count = useCount()
   const dispatch = useDispatchCount()
-
+ 
+ 
   const handleIncrease = (event) =>
     dispatch({
       type: 'INCREASE',

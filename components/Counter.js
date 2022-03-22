@@ -17,7 +17,13 @@ const reducer = (state, action) => {
 }
 
 export const CounterProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, 0)
+  const [state, dispatch] = useReducer(reducer, 0);
+  if (typeof window !== 'undefined') {
+    console.log('we are running on the client');
+    localStorage.setItem("prova", state);
+} else {
+    console.log('we are running on the server');
+}
   return (
     <CounterDispatchContext.Provider value={dispatch}>
       <CounterStateContext.Provider value={state}>

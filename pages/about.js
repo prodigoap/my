@@ -4,7 +4,16 @@ import { useCount, useDispatchCount } from '../components/Counter'
 const AboutPage = () => {
   const count = useCount()
   const dispatch = useDispatchCount()
+  
 
+  if (typeof window !== 'undefined') {
+    console.log('we are running on the client');
+    console.log("eccolo "+localStorage.getItem("prova"));
+} else {
+    console.log('we are running on the server');
+}
+
+  
   const handleIncrease = (event) =>
     dispatch({
       type: 'INCREASE',
