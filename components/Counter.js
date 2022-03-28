@@ -11,6 +11,8 @@ const reducer = (state, action) => {
       return state - 1
     case 'INCREASE_BY':
       return state + action.payload
+    case 'ADDCART':
+    return state + "##|" + action.payload
     default:
       throw new Error(`Unknown action: ${action.type}`)
   }
@@ -20,7 +22,15 @@ export const CounterProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, 0);
   if (typeof window !== 'undefined') {
     console.log('we are running on the client');
-    localStorage.setItem("prova", state);
+
+    
+    if(state){
+      console.log("reset locale");
+      localStorage.setItem("prova", state);
+    }
+
+
+
 } else {
     console.log('we are running on the server');
 }

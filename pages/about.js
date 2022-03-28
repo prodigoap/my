@@ -1,14 +1,19 @@
 import Link from 'next/link'
 import { useCount, useDispatchCount } from '../components/Counter'
-
+import { proxy, useSnapshot } from 'valtio'
+import { state } from './state'
 const AboutPage = () => {
   const count = useCount()
   const dispatch = useDispatchCount()
   
 
+  const snap = useSnapshot(state)
+
+console.log("valtio about "+snap.demo);
+
   if (typeof window !== 'undefined') {
     console.log('we are running on the client');
-    console.log("eccolo "+localStorage.getItem("prova"));
+    console.log("local "+localStorage.getItem("prova"));
 } else {
     console.log('we are running on the server');
 }
