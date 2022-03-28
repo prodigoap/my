@@ -4,11 +4,13 @@ import { state } from './state'
 import { subscribe } from 'valtio'
 import { watch } from 'valtio/utils'
 import Minicart from './minicart'
+import CryptoJS from 'crypto-js';
 const IndexPage = () => {
   const count = useCount()
   const dispatch = useDispatchCount()
 
-
+console.log("# "+encryptData("prova","key"));
+console.log("# "+decryptData(encryptData("prova","key"),"key"));
   const handleIncrease = (event) =>
     dispatch({
       type: 'INCREASE',
@@ -51,5 +53,18 @@ const stop = watch((get) => {
     </>
   )
 }
+export const encryptData = (data, salt) =>
+                                CryptoJS.AES.encrypt(JSON.stringify(data), salt).toString();
+                                
+                                
+                                export const decryptData = (ciphertext, salt) => {
+                                const bytes = CryptoJS.AES.decrypt(ciphertext, salt);
+                                try {
+                                    return JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+                                }
+                                catch(err){
+                                    return null;
+                                }
+                                }
 
 export default IndexPage
