@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/minus</title>
+    <g id="icons/minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M19.5,11.5 C20.0522847,11.5 20.5,11.9477153 20.5,12.5 C20.5,13.0128358 20.1139598,13.4355072 19.6166211,13.4932723 L19.5,13.5 L3.5,13.5 C2.94771525,13.5 2.5,13.0522847 2.5,12.5 C2.5,11.9871642 2.88604019,11.5644928 3.38337887,11.5067277 L3.5,11.5 L19.5,11.5 Z" id="Line-3" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

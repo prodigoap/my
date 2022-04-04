@@ -1,10 +1,11 @@
 import Link from 'next/link'
-import { useCount, useDispatchCount } from '../components/Counter'
+import { useCount, useDispatchCount } from '../components/Cart'
 import { state } from './state'
 import { subscribe } from 'valtio'
 import { watch } from 'valtio/utils'
 import Minicart from './minicart'
 import CryptoJS from 'crypto-js';
+
 const IndexPage = () => {
   const count = useCount()
   const dispatch = useDispatchCount()
@@ -38,7 +39,7 @@ const stop = watch((get) => {
   return (
     <>
       <h1>HOME</h1>
-      <p>Counter: {count}</p>
+      <p>Cart: {count}</p>
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleDecrease}>Decrease</button>
       <button onClick={addProductCart}>addProductCart</button>

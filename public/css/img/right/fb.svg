@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4BD2ED1F-12DE-4B3D-BC77-96D3200EC046</title>
+    <g id="Dsk-Shopping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1060.000000, -4719.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4903"></rect>
+            <g id="footer" transform="translate(0.000000, 4472.813853)">
+                <g id="elements/icon-box" transform="translate(1045.000000, 231.186147)">
+                    <rect id="Rectangle" stroke="#D7D4DF" x="0.5" y="0.5" width="53" height="53" rx="24"></rect>
+                    <g id="icons/search" transform="translate(15.000000, 15.000000)" fill="#160E2F">
+                        <g id="facebook" transform="translate(7.000000, 2.000000)">
+                            <path d="M11,0 L8,0 C5.23857625,0 3,2.23857625 3,5 L3,8 L0,8 L0,12 L3,12 L3,20 L7,20 L7,12 L10,12 L11,8 L7,8 L7,5 C7,4.44771525 7.44771525,4 8,4 L11,4 L11,0 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

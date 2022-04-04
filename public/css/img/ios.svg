@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/ios</title>
+    <g id="icons/ios" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="windows-logo-silhouette" transform="translate(1.000000, 1.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M0,18.9725353 L9.01686867,20.2152513 L9.01686867,11.6082992 L0,11.6082992 L0,18.9725353 Z M0,10.4976067 L9.01686867,10.4976067 L9.01686867,1.78488766 L0,3.02760366 L0,10.4976067 Z M10.0084575,20.3475526 L22,22 L22,11.6082992 L22,11.6081603 L10.0084575,11.6081603 L10.0084575,20.3475526 Z M10.0085964,1.6526326 L10.0085964,10.4976067 L22,10.4976067 L22,0 L10.0085964,1.6526326 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

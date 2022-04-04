@@ -1,7 +1,7 @@
 import { useReducer, useContext, createContext } from 'react'
 
-const CounterStateContext = createContext()
-const CounterDispatchContext = createContext()
+const CartStateContext = createContext()
+const CartDispatchContext = createContext()
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -18,7 +18,7 @@ const reducer = (state, action) => {
   }
 }
 
-export const CounterProvider = ({ children }) => {
+export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, 0);
   if (typeof window !== 'undefined') {
     console.log('we are running on the client');
@@ -35,13 +35,13 @@ export const CounterProvider = ({ children }) => {
     console.log('we are running on the server');
 }
   return (
-    <CounterDispatchContext.Provider value={dispatch}>
-      <CounterStateContext.Provider value={state}>
+    <CartDispatchContext.Provider value={dispatch}>
+      <CartStateContext.Provider value={state}>
         {children}
-      </CounterStateContext.Provider>
-    </CounterDispatchContext.Provider>
+      </CartStateContext.Provider>
+    </CartDispatchContext.Provider>
   )
 }
 
-export const useCount = () => useContext(CounterStateContext)
-export const useDispatchCount = () => useContext(CounterDispatchContext)
+export const useCount = () => useContext(CartStateContext)
+export const useDispatchCount = () => useContext(CartDispatchContext)

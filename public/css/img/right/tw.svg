@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>906B1AFB-D785-4DD2-BE6D-7C39EE357FC6</title>
+    <g id="Dsk-Shopping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1208.000000, -4719.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4903"></rect>
+            <g id="footer" transform="translate(0.000000, 4472.813853)">
+                <g id="elements/icon-box" transform="translate(1193.000000, 231.186147)">
+                    <rect id="Rectangle" stroke="#D7D4DF" x="0.5" y="0.5" width="53" height="53" rx="24"></rect>
+                    <g id="icons/search" transform="translate(15.000000, 15.000000)" fill="#160E2F">
+                        <g id="twitter" transform="translate(1.000000, 3.000000)">
+                            <path d="M22,0.0102625429 C21.042385,0.68573995 19.9821079,1.20237179 18.86,1.54026254 C17.6263595,0.121800337 15.63837,-0.375623146 13.8820815,0.294715977 C12.125793,0.965055099 10.9748003,2.66056341 11,4.54026254 L11,5.54026254 C7.43066483,5.63281494 4.05202531,3.93223305 2,1.01026254 C2,1.01026254 -2,10.0102625 7,14.0102625 C4.94052756,15.4082289 2.48715691,16.1091919 0,16.0102625 C9,21.0102625 20,16.0102625 20,4.51026254 C19.9990791,4.23171618 19.9722975,3.95385694 19.92,3.68026254 C20.9406031,2.67375562 21.6608274,1.40297533 22,0.0102625429 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

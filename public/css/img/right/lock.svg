@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B152EEF0-8591-467F-8F45-0B29B4ECF94E</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="120" rx="24"></rect>
+        <filter x="-2.5%" y="-25.0%" width="105.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0870435499   0 0 0 0 0.055175793   0 0 0 0 0.182646821  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dsk-Shopping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-783.000000, -1935.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4903"></rect>
+            <g id="Group" transform="translate(120.000000, 1894.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="elements/usp-dark" transform="translate(663.000000, 20.000000)" fill="#EE004C">
+                    <g id="icons/search" transform="translate(0.000000, 21.000000)">
+                        <g id="lock" transform="translate(4.500000, 3.000000)">
+                            <path d="M13.5,-1.5 C18.3575954,-1.5 22.3163576,2.34836233 22.4937923,7.1625926 L22.5,7.5 L22.5,12 L24,12 C26.4142733,12 28.3844891,13.9012365 28.495102,16.2881643 L28.5,16.5 L28.5,27 C28.5,29.4852814 26.4852814,31.5 24,31.5 L24,31.5 L3,31.5 C0.514718626,31.5 -1.5,29.4852814 -1.5,27 L-1.5,27 L-1.5,16.5 C-1.5,14.0147186 0.514718626,12 3,12 L3,12 L4.5,12 L4.5,7.5 C4.5,2.52943725 8.52943725,-1.5 13.5,-1.5 Z M24,15 L3,15 C2.17157288,15 1.5,15.6715729 1.5,16.5 L1.5,16.5 L1.5,27 C1.5,27.8284271 2.17157288,28.5 3,28.5 L3,28.5 L24,28.5 C24.8284271,28.5 25.5,27.8284271 25.5,27 L25.5,27 L25.5,16.5 C25.5,15.6715729 24.8284271,15 24,15 L24,15 Z M13.5,1.5 C10.2867069,1.5 7.66338169,4.02595271 7.50734296,7.20053949 L7.5,7.5 L7.5,12 L19.5,12 L19.5,7.5 C19.5,4.1862915 16.8137085,1.5 13.5,1.5 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

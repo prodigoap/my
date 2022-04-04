@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>933A044B-9CEF-4793-9181-5319DE664B17</title>
+    <g id="Dsk-Shopping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-491.000000, -1251.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4903"></rect>
+            <g id="elements/product-widget-copy" transform="translate(365.500000, 839.000000)">
+                <rect id="Rectangle" stroke="#F0EFF3" fill="#FFFFFF" x="0.5" y="0.5" width="219" height="449" rx="24"></rect>
+                <g id="nav/primary-small" transform="translate(113.809091, 404.000000)">
+                    <rect id="Rectangle" fill="#F6F4FC" x="0" y="0" width="42.3818182" height="34" rx="17"></rect>
+                    <g id="icons/cart-add" transform="translate(12.190909, 8.850000)" fill="#552AEE">
+                        <path d="M9,4.54679615 C10.5187928,3.32465333 12.0187928,2.82673316 13.5,3.05303564 C15.7218109,3.39248935 17.25,4.99617648 17.25,7.53431718 C17.25,10.5592481 14.5,13.297809 9,15.75 C3.5,13.297809 0.75,10.5592481 0.75,7.53431718 C0.75,5.14061144 2.25,3.05303564 4.5,3.05303564 C6,3.05303564 7.5,3.55095581 9,4.54679615 Z" id="Oval"></path>
+                    </g>
+                    <text id="Buy-Now" font-family="Poppins-SemiBold, Poppins" font-size="13" font-weight="500"></text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

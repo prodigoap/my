@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useCount, useDispatchCount } from '../components/Counter'
+import { useCount, useDispatchCount } from '../components/Cart'
 import { proxy, useSnapshot } from 'valtio'
 import { state } from './state'
 const AboutPage = () => {
@@ -32,7 +32,7 @@ console.log("valtio about "+snap.demo);
   return (
     <>
       <h1>ABOUT</h1>
-      <p>Counter: {count}</p>
+      <p>Cart: {count}</p>
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleIncrease15}>Increase By 15</button>
       <p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/favorites filled</title>
+    <g id="icons/favorites-filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,6.06239487 C14.025057,4.43287111 16.025057,3.76897754 18,4.07071418 C20.9624145,4.52331913 23,6.66156865 23,10.0457562 C23,14.0789974 19.3333333,17.730412 12,21 C4.66666667,17.730412 1,14.0789974 1,10.0457562 C1,6.85414859 3,4.07071418 6,4.07071418 C8,4.07071418 10,4.73460774 12,6.06239487 Z" id="Oval" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F65E849E-6C24-416E-8F38-32270B94212F</title>
+    <g id="Dsk-Shopping" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1307.000000, -4516.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4903"></rect>
+            <g id="footer" transform="translate(0.000000, 4472.813853)">
+                <rect id="Rectangle" fill="#F6F4FC" x="0" y="9.09494702e-13" width="1440" height="97"></rect>
+                <g id="elements/icon+label" transform="translate(1241.000000, 31.186147)" fill="#160E2F">
+                    <g id="Group" transform="translate(0.000000, 8.000000)">
+                        <g id="icons/chevron" transform="translate(66.000000, 4.000000)">
+                            <path d="M9.52859548,3.52859548 C9.78894501,3.26824595 10.211055,3.26824595 10.4714045,3.52859548 C10.7117272,3.76891812 10.7302135,4.14707216 10.5268636,4.40859963 L10.4714045,4.47140452 L6.94333333,8 L10.4714045,11.5285955 C10.7117272,11.7689181 10.7302135,12.1470722 10.5268636,12.4085996 L10.4714045,12.4714045 C10.2310819,12.7117272 9.85292784,12.7302135 9.59140037,12.5268636 L9.52859548,12.4714045 L5.52859548,8.47140452 C5.28827284,8.23108188 5.26978648,7.85292784 5.47313641,7.59140037 L5.52859548,7.52859548 L9.52859548,3.52859548 Z" id="Path" transform="translate(8.000000, 8.000000) scale(1, -1) rotate(-270.000000) translate(-8.000000, -8.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

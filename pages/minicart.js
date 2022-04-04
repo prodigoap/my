@@ -15,7 +15,7 @@ const Minicart = () => {
     )
  
 } else {
-    console.log('we are running on the server'); return (
+    return (
       <><div>Minicart {demo}  </div>
       </>
     )
