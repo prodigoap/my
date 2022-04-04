@@ -1,5 +1,5 @@
 import { proxy, useSnapshot } from 'valtio';
-const state = proxy({ demo: 22, demo2: 'hello' });
+const state = proxy({ demo: 22, demo2: 'hello', boxsignupopened: 0 });
 
 if (typeof window !== 'undefined') {
     console.log('we are running on the client');
