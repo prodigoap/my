@@ -65,7 +65,7 @@ export function Footer(props){
                         </li>
                         <li>
                             <div className="customercareiconlanguagecurrency"><img src="./css/img/ita.svg" /><span className="">ITA &euro;</span><img
-                                src="img/chevron downgray.svg" /></div>
+                                src="./css/img/chevron downgray.svg" /></div>
                         </li>
                     </ul>
                 </div>
@@ -103,16 +103,16 @@ export function Footer(props){
                         <div className="col-12 g-0 ">
                             <ul className="footersocial">
                                 <li>
-                                    <div className="footersocialbox"><img src="img/fb.svg" className="footersocialicon" /></div>
+                                    <div className="footersocialbox"><img src="./css/img/fb.svg" className="footersocialicon" /></div>
                                 </li>
                                 <li>
-                                    <div className="footersocialbox"><img src="img/ig.svg" className="footersocialicon" /></div>
+                                    <div className="footersocialbox"><img src="./css/img/ig.svg" className="footersocialicon" /></div>
                                 </li>
                                 <li>
-                                    <div className="footersocialbox"><img src="img/tw.svg" className="footersocialicon" /></div>
+                                    <div className="footersocialbox"><img src="./css/img/tw.svg" className="footersocialicon" /></div>
                                 </li>
                                 <li>
-                                    <div className="footersocialbox"><img src="img/twc.svg" className="footersocialicon" /></div>
+                                    <div className="footersocialbox"><img src="./css/img/twc.svg" className="footersocialicon" /></div>
                                 </li>
                             </ul>
                         </div>
