@@ -3,7 +3,7 @@ import { useCount, useDispatchCount } from '../components/Cart'
 import { state } from './state'
 import { subscribe } from 'valtio'
 import { watch } from 'valtio/utils'
-import Minicart from './minicart'
+
 import CryptoJS from 'crypto-js';
 
 const IndexPage = () => {
@@ -23,13 +23,13 @@ console.log("# "+decryptData(encryptData("prova","key"),"key"));
    const  addProductCart = (event) =>
    dispatch({
      type: 'ADDCART',
-     payload: "##",
+     payload: "#",
    })
    
    const updatevaltio = (prodid,qty) => {
-      console.log(qty);
-      state.demo=state.demo+"#"+prodid+"-"+qty;
-      localStorage.setItem("prova", state.demo);
+
+      state.skus=state.skus+"#"+prodid+"-"+qty;
+      localStorage.setItem("prova", state.skus);
 
 
    }
@@ -38,19 +38,19 @@ const stop = watch((get) => {
 })
   return (
     <>
-      <h1>HOME</h1>
+     
       <p>Cart: {count}</p>
       <button onClick={handleIncrease}>Increase</button>
       <button onClick={handleDecrease}>Decrease</button>
       <button onClick={addProductCart}>addProductCart</button>
-      <button onClick={() => updatevaltio('112233',2)}>updatevaltio</button>
-      <button onClick={() => updatevaltio('115533',1)}>updatevaltio</button>
+      <button onClick={() => updatevaltio('abcde',2)}>updatevaltio</button>
+      <button onClick={() => updatevaltio('zvuts',1)}>updatevaltio</button>
       <p>
         <Link href="/about">
           <a>About</a>
         </Link>
       </p>
-      <Minicart />
+      
     </>
   )
 }

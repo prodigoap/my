@@ -1,3 +1,4 @@
+import Minicart from '../pages/minicart'
 export function Head(props){
 
 
@@ -102,7 +103,7 @@ return <header>
                   <div className="carthowmany">3</div>
                   <div className="RecentlySearchsuggestedbox kcblockcartdetails">
                      <div className="linepurple"></div>
-                     <div className="RecentlySearchsuggestedboxtitle">Cart (2)</div>
+                     <div className="RecentlySearchsuggestedboxtitle">Cart (<Minicart />)</div>
                      <div className="RecentlySearchsuggestedboxproduct kcblockproductcartblock">
                         <div className="RecentlySearchsuggestedboxproductbox">
                            <img src="https://i.redd.it/l1slqdb0gt871.jpg" />

@@ -1,33 +1,31 @@
-import Link from 'next/link'
-import { useCount, useDispatchCount } from '../components/Cart'
-import { proxy, useSnapshot } from 'valtio'
-import { state } from './state'
+import Link from "next/link";
+import { useCount, useDispatchCount } from "../components/Cart";
+import { proxy, useSnapshot } from "valtio";
+import { state } from "./state";
 const AboutPage = () => {
-  const count = useCount()
-  const dispatch = useDispatchCount()
-  
+  const count = useCount();
+  const dispatch = useDispatchCount();
 
-  const snap = useSnapshot(state)
+  const snap = useSnapshot(state);
 
-console.log("valtio about "+snap.demo);
+  console.log("valtio about " + snap.demo);
 
-  if (typeof window !== 'undefined') {
-    console.log('we are running on the client');
-    console.log("local "+localStorage.getItem("prova"));
-} else {
-    console.log('we are running on the server');
-}
+  if (typeof window !== "undefined") {
+    console.log("we are running on the client");
+    console.log("local " + localStorage.getItem("prova"));
+  } else {
+    console.log("we are running on the server");
+  }
 
-  
   const handleIncrease = (event) =>
     dispatch({
-      type: 'INCREASE',
-    })
+      type: "INCREASE",
+    });
   const handleIncrease15 = (event) =>
     dispatch({
-      type: 'INCREASE_BY',
+      type: "INCREASE_BY",
       payload: 15,
-    })
+    });
 
   return (
     <>
@@ -41,7 +39,7 @@ console.log("valtio about "+snap.demo);
         </Link>
       </p>
     </>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;

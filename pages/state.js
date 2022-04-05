@@ -1,10 +1,10 @@
 import { proxy, useSnapshot } from 'valtio';
-const state = proxy({ demo: 22, demo2: 'hello', boxsignupopened: 0 });
+const state = proxy({ skus: "", qtytotal: 0, boxsignupopened: 0 });
 
 if (typeof window !== 'undefined') {
-    console.log('we are running on the client');
-    console.log("prova "+localStorage.getItem("prova"))
+   
+   
 } else {
-    console.log('we are running on the server');
+   
 }
 export {state};
