@@ -1,7 +1,29 @@
 import Minicart from '../pages/minicart'
+import { state } from '../pages/state'
+import { subscribe } from 'valtio'
+import { watch } from 'valtio/utils'
+
+import CryptoJS from 'crypto-js';
+
 export function Head(props){
 
+   const stop = watch((get) => {
+      console.log('[header] state has changed to', get(state));
+      var productcart = get(state).skus;
+      productcart=productcart.split("#");
+      var totalqty=0;
 
+      for (const sku of productcart) {
+         
+         if(sku.trim()!=""){
+            sku=sku.split("-");
+            
+            totalqty = parseInt(totalqty)+parseInt(sku[1]);
+       }
+      }
+console.log("tot "+totalqty);
+
+    })
 return <header>
 <div className="kcblock kcblockheight">
    <div className="row vertupdownpadding">
@@ -103,10 +125,10 @@ return <header>
                   <div className="carthowmany">3</div>
                   <div className="RecentlySearchsuggestedbox kcblockcartdetails">
                      <div className="linepurple"></div>
-                     <div className="RecentlySearchsuggestedboxtitle">Cart (<Minicart />)</div>
                      <div className="RecentlySearchsuggestedboxproduct kcblockproductcartblock">
                         <div className="RecentlySearchsuggestedboxproductbox">
                            <img src="https://i.redd.it/l1slqdb0gt871.jpg" />
+                     <div className="RecentlySearchsuggestedboxtitle">Cart (<Minicart />)</div>
                         </div>
                         <div className="RecentlySearchsuggestedboxproductdescription">
                            <div className="RecentlySearchsuggestedboxproductboxlabel kcblockproductcart">

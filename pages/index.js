@@ -29,8 +29,12 @@ console.log("# "+decryptData(encryptData("prova","key"),"key"));
    const updatevaltio = (prodid,qty) => {
 
       state.skus=state.skus+"#"+prodid+"-"+qty;
-      localStorage.setItem("prova", state.skus);
 
+      state.qtytotal= parseInt(state.qtytotal)  + parseInt(qty);
+
+      
+      localStorage.setItem("cartproductlist", state.skus);
+      localStorage.setItem("qtytotal", state.qtytotal);
 
    }
 const stop = watch((get) => {
