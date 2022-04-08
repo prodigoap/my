@@ -26,7 +26,7 @@ const AboutPage = () => {
       type: "INCREASE_BY",
       payload: 15,
     });
-
+    console.log("about "+i18next.t('key'));
   return (
     <>
       <h1>ABOUT</h1>

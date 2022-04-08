@@ -6,6 +6,21 @@ import { Head } from "../components/Head";
 import { Footer } from "../components/Footer";
 import FirebaseProvider from "../firebase/firebase";
 import React, { createContext, useEffect } from "react";
+import i18next from 'i18next';
+
+i18next.init({
+  lng: 'en',
+  debug: true,
+  resources: {
+    en: {
+      translation: {
+        "key": "hello world"
+      }
+    }
+  }
+});
+
+console.log(i18next.t('key'));
 
 class MyApp extends App {
   render() {
@@ -14,11 +29,12 @@ class MyApp extends App {
     return (
       <React.StrictMode>
         <FirebaseProvider>
+        <i18next>
           <CartProvider>
             <Head />
             <Component {...pageProps} />
             <Footer />
-          </CartProvider>
+          </CartProvider></i18next>
         </FirebaseProvider>
       </React.StrictMode>
     );
