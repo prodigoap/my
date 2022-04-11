@@ -5,7 +5,7 @@ import { subscribe } from "valtio";
 import { watch } from "valtio/utils";
 import CryptoJS from "crypto-js";
 import { FirebaseContext } from "../firebase/firebase";
-
+import i18next from 'i18next';
 const IndexPage = () => {
   const count = useCount();
   const dispatch = useDispatchCount();
@@ -25,7 +25,7 @@ const IndexPage = () => {
       type: "ADDCART",
       payload: "#",
     });
-
+    console.log("index: "+i18next.t('key'));
   const updatevaltio = (prodid, qty) => {
     state.skus = state.skus + "#" + prodid + "-" + qty;
     state.qtytotal = parseInt(state.qtytotal) + parseInt(qty);

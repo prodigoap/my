@@ -20,7 +20,7 @@ i18next.init({
   }
 });
 
-console.log(i18next.t('key'));
+
 
 class MyApp extends App {
   render() {
@@ -28,7 +28,7 @@ class MyApp extends App {
 
     return (
       <React.StrictMode>
-        <FirebaseProvider>
+        <FirebaseProvider >
         <i18next>
           <CartProvider>
             <Head />
