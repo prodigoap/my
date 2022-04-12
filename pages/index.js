@@ -4,12 +4,20 @@ import { state } from "./state";
 import { subscribe } from "valtio";
 import { watch } from "valtio/utils";
 import CryptoJS from "crypto-js";
+import db from "../firebase/firebase"
+
 
 import i18next from 'i18next';
 const IndexPage = () => {
+
   const count = useCount();
   const dispatch = useDispatchCount();
 
+  db.collection("products").get().then((querySnapshot) => {
+    querySnapshot.forEach((doc) => {
+        console.log(doc.data());
+    });
+});
   console.log("# " + encryptData("prova", "key"));
   console.log("# " + decryptData(encryptData("prova", "key"), "key"));
   const handleIncrease = (event) =>
@@ -26,7 +34,7 @@ const IndexPage = () => {
       payload: "#",
     });
     console.log("index: "+i18next.t('key'));
-  const updatevaltio = (prodid, qty) => {
+    const updatevaltio = (prodid, qty) => {
     state.skus = state.skus + "#" + prodid + "-" + qty;
     state.qtytotal = parseInt(state.qtytotal) + parseInt(qty);
     localStorage.setItem("cartproductlist", state.skus);
@@ -35,6 +43,12 @@ const IndexPage = () => {
   const stop = watch((get) => {
     console.log("[index] state has changed to", get(state)); // auto-subscribe on use
   });
+
+
+
+
+
+
   return (
     <>
       <p>Cart: {count}</p>

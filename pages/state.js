@@ -4,14 +4,14 @@ var qtytotal=0;
 var cartproductlist="";
 if (typeof window !== "undefined") {
     
-    if(localStorage.getItem("qtytotal").trim()!=""){
+    if(localStorage.getItem("qtytotal")!=""){
         
         qtytotal=localStorage.getItem("qtytotal");
     
     }
     
     
-    if(localStorage.getItem("cartproductlist").trim()!=""){
+    if(localStorage.getItem("cartproductlist")!=""){
         
         cartproductlist=localStorage.getItem("cartproductlist");
    

@@ -8,8 +8,16 @@ import React, { useState, useEffect } from 'react';
 export function Head(props) {
   const stop = watch((get) => {
     console.log("[header] state has changed to", get(state));
+
+
+    if(get(state).skus!=""){
     var productcart = get(state).skus;
     productcart = productcart.split("#");
+    }
+    else{
+
+      var productcart="";
+    }
     var totalqty = 0;
 
 
