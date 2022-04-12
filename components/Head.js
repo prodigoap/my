@@ -3,8 +3,7 @@ import { subscribe } from "valtio";
 import { watch } from "valtio/utils";
 import { useSnapshot } from "valtio";
 import CryptoJS from "crypto-js";
-import { firebase } from '../firebase/firebase';
-import { collection, addDoc } from 'firebase/firestore';
+
 import React, { useState, useEffect } from 'react';
 export function Head(props) {
   const stop = watch((get) => {
@@ -14,25 +13,7 @@ export function Head(props) {
     var totalqty = 0;
 
 
-    const fetchBlogs=async()=>{
 
-      const response=firebase.collection('products');
-  
-      const data=await response.get();
-  
-      data.docs.forEach(item=>{
-  
-       console.log(item.data())
-  
-      })
-  
-    }
-  
-    useEffect(() => {
-  
-      fetchBlogs();
-  
-    }, [])
 
     for (const sku of productcart) {
       if (sku.trim() != "") {

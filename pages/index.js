@@ -4,7 +4,7 @@ import { state } from "./state";
 import { subscribe } from "valtio";
 import { watch } from "valtio/utils";
 import CryptoJS from "crypto-js";
-import { FirebaseContext } from "../firebase/firebase";
+
 import i18next from 'i18next';
 const IndexPage = () => {
   const count = useCount();

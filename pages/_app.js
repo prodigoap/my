@@ -4,7 +4,7 @@ import "../public/css/bootstrap.min.css";
 import "../public/css/keycense.css";
 import { Head } from "../components/Head";
 import { Footer } from "../components/Footer";
-import FirebaseProvider from "../firebase/firebase";
+import app from "../firebase/firebase";
 import React, { createContext, useEffect } from "react";
 import i18next from 'i18next';
 
@@ -28,14 +28,14 @@ class MyApp extends App {
 
     return (
       <React.StrictMode>
-        <FirebaseProvider >
+       
         <i18next>
           <CartProvider>
             <Head />
             <Component {...pageProps} />
             <Footer />
           </CartProvider></i18next>
-        </FirebaseProvider>
+       
       </React.StrictMode>
     );
   }
